@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Responsive Landing Page</h1>
+    <nav>
+      <button onclick="showPage('info')">About Project</button>
+      <button onclick="showPage('contact')">Contact & FAQ</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Info Page -->
+    <section id="info" class="page active">
+      <h1> Hi! This is my task 2 of Prodigy InfoTech </h1>
+      <h2>About the Project</h2>
+      <p>
+        This project is about creating a responsive and interactive navigation menu using HTML, CSS, and JavaScript. 
+        The menu is designed with a fixed position, making it always visible at the top of the page while scrolling through content.
+<p>
+✨ Features:
+
+Fixed Position Navbar : stays visible on all pages while scrolling.
+
+Hover Effect : menu items change style or color when hovered for better user experience.
+
+Scroll Effect : the background or font color of the navigation bar dynamically changes when the user scrolls down.
+
+Responsive Design :adjusts automatically for desktops, tablets, and mobile devices.
+
+Smooth User Experience :provides a professional and modern look for websites or landing pages.
+</p>
+<p>
+🛠 Technologies Used:
+
+HTML → for structuring the navigation bar.
+
+CSS → for styling the menu, hover effects, and transitions.
+
+JavaScript → for adding scroll-based interactivity and dynamic color changes.
+</p>
+<p>
+📖 Learning Outcome:
+This project helps in understanding front-end web development concepts, including DOM manipulation, CSS transitions, event handling, and responsive design principles. It can be used as a base for personal portfolios, landing pages, or multipage websites.
+      </p>
+      <p>
+        The design is clean, professional, and mobile-friendly, ensuring smooth navigation across devices.
+      </p>
+    </section>
+
+    <!-- Contact & FAQ Page -->
+    <section id="contact" class="page">
+      <h2>Contact & Links</h2>
+      <div class="links">
+        <a href="mailto:example@email.com">📧 Email: anjalijoshi396@email.com</a>
+        <a href="https://www.linkedin.com/in/anjali-joshi-17a561276/" target="_blank">🔗 Linkdin</a>
+        <a href="https://github.com/anjaliii04" target="_blank">💻 GitHub</a>
+      </div>
+
+      <div class="faq">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq-item">
+          <button onclick="toggleFAQ(this)">What is this project about?</button>
+          <p>This project is a responsive landing page with two main sections: About and Contact/FAQ.</p>
+        </div>
+        <div class="faq-item">
+          <button onclick="toggleFAQ(this)">Which technologies are used?</button>
+          <p>The project is built using HTML, CSS, and JavaScript only (no frameworks).</p>
+        </div>
+        <div class="faq-item">
+          <button onclick="toggleFAQ(this)">Is it mobile-friendly?</button>
+          <p>Yes, the design is fully responsive and works well on all devices.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
