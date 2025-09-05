@@ -19,9 +19,9 @@ It can be used as a base for personal portfolios, landing pages, or multipage we
 The design is clean, professional, and mobile-friendly, ensuring smooth navigation across devices.
 
 ## 📸 Screenshot
+<img width="1899" height="832" alt="Screenshot 2025-09-05 085515" src="https://github.com/user-attachments/assets/07732259-5f2e-4cd4-863d-bff0871d1eec" />
 <img width="1905" height="944" alt="Screenshot 2025-09-05 085533" src="https://github.com/user-attachments/assets/04f3e8a3-71a8-4556-b415-7943922eeebd" />
 
-<img width="1899" height="832" alt="Screenshot 2025-09-05 085515" src="https://github.com/user-attachments/assets/07732259-5f2e-4cd4-863d-bff0871d1eec" />
 
 
       
